@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.cloud-1 {
+  margin: 30px 0 20px 300px;
+}
+.cloud-2 {
+  margin: 40px 0 0 600px;
+  display: block;
+}
