@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: right;
+}
+
+#navbarDropdown {
+  left: auto;
+}
+
+.downlod-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title, #testimonials, #press, #cta, #pricing-button {
+  background-color: #f0134d;
+  color: #fff;
+}
+
+#cta, #footer, .carousel-item, #features {
+    padding: 5% 13%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+#footer, #features {
+  background-color: #fff;
+}
+
+#cta, #footer, #pricing, #press, #testimonials, .feature-box {
+  text-align: center;
+}
+
+.title-image {
+  width: 50%;
+  transform: rotate(20deg);
+  right: 110px;
+  position: absolute;
+
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+  font-family: 'Montserrat-Light', sans-serif;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #f0134d;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #fae3d9;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn-primary {
+  background-color: #f0134d;
+  border-color: #f0134d;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #fae3d9;
+  border-color: #fae3d9;
+  color: black;
+}
+
+ .btn-outline-primary {
+  border-color: #f0134d;
+  color: black;
+ }
+
+ .btn-outline-primary:hover {
+  border-color: #fae3d9;
+  background-color: #fae3d9;
+  color: black;
+ }
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  /* text-align: center; */
+  padding: 5%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  /* text-align: center; */
+  padding-bottom: 5%;
+  margin-bottom: 10px;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 10px 20px 10px
+}
+
+#pricing {
+  padding: 50px 100px;
+  /* text-align: center; */
+}
+
+#pricing-button{
+  padding: 5%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 65%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+      line-height: 1.2;
+  }
+
+  .press-logo {
+    width: 25%;
+    margin-top: 20px;
+  }
+}
+
+.social-logo {
+  padding: 5% 3%;
+  color: black;
+}
+
+.copyright {
+  padding-top: 5%;
+}

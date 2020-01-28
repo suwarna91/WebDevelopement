@@ -1,0 +1,36 @@
+h1:hover {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+p {
+  color: maroon;
+}
+
+.mashroom {
+  background-color: yellow;
+}
+
+.spinach-green {
+  background-color: pink;
+}
+
+#paragraph-1 {
+  color: blue;
+  font-size: 15px;
+}
+
+#paragraph-2 {
+  color: 20px;
+  font-style: italic;
+}
+
+.paragraph-4 {
+  font-family: fantasy;
+}
+
+.circular {
+  border-radius: 100%;
+}
